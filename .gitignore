@@ -1,6 +1,10 @@
 cmake-build-*/
 .idea/
-main
-main2
 *.o
 *.out
+
+# Executáveis compilados sem extensão
+**/*
+!*.*
+!*/
+!.gitignore
