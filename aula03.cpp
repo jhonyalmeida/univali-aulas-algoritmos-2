@@ -1,0 +1,52 @@
+#include <iostream>
+
+using namespace std;
+
+void multiplicarMatriz (int matriz [3][3], int multiplicador=2);
+void multiplicarMatriz (float matriz [3][3], int multiplicador=2);
+void exibirMatriz (int matriz[3][3]);
+void exibirMatriz (float matriz[3][3]);
+
+int main() {
+
+
+    return 0;
+}
+
+void multiplicarMatriz (int matriz [3][3], int multiplicador) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            matriz[i][j] = matriz[i][j] * multiplicador;
+        }
+    }
+}
+
+void multiplicarMatriz (float matriz [3][3], int multiplicador) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            matriz[i][j] = matriz[i][j] * multiplicador;
+        }
+    }
+}
+
+void exibirMatriz(int matriz[3][3]) {
+    cout << "Chamada função 1\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout<< matriz[i][j] << "  ";
+        }
+        cout << "\n";
+    }
+    cout << "\n";
+}
+
+void exibirMatriz(float matriz[3][3]) {
+    cout << "Chamada função 2\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout<< matriz[i][j] << "  ";
+        }
+        cout << "\n";
+    }
+    cout << "\n";
+}

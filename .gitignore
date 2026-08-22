@@ -1,0 +1,6 @@
+cmake-build-*/
+.idea/
+main
+main2
+*.o
+*.out
