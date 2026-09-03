@@ -3,6 +3,9 @@
 
 using namespace std;
 
+/**
+ * Retorna um número pseudo-aleatório entre 1 e max
+ */
 int getNumeroAleatorio(int max) {
     srand(time(nullptr));
     return rand() % max + 1;
