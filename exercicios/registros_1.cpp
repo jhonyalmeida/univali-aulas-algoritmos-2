@@ -44,7 +44,7 @@ void buscarCurso(vector<Curso> cursos) {
     cout << c.codigo << " - " << c.nome << endl;
 }
 
-int main () {
+int exercicioRegistros1 () {
     vector<Curso> cursos;
     bool saida = false;
     int opcao = 0;

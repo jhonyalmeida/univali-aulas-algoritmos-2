@@ -16,7 +16,7 @@ void ordenar(T v[], int n);
 
 //Main
 
-int main () {
+int exercicioTemplates () {
     float vet[10] = {9,8,7,6,5,8,3,2.6,10,0};
     string vet2[3] = {"batata", "alface", "abobora"};
     char vet3[5] = {'a','b','c','d','e'};

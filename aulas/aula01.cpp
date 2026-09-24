@@ -11,7 +11,7 @@
 
 using namespace std;
 
-int main() {
+int aula01() {
 
     int vetor[15] = { 1, 2, 3, 43, 5, 6, 7, 83,
         9, 10, 119, 12, 131, 14, 157 };

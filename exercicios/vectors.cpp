@@ -15,7 +15,7 @@ template <typename T> void ordenar(vector<T> &v);
 
 //Main
 
-int main() {
+int exercicioVector() {
     vector<int> vec = criarVetor();
 
     int maior = acharMaior(vec);

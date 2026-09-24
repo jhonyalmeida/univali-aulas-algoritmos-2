@@ -7,12 +7,6 @@ void multiplicarMatriz (float matriz [3][3], int multiplicador=2);
 void exibirMatriz (int matriz[3][3]);
 void exibirMatriz (float matriz[3][3]);
 
-int main() {
-
-
-    return 0;
-}
-
 void multiplicarMatriz (int matriz [3][3], int multiplicador) {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
