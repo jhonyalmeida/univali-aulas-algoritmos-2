@@ -7,4 +7,6 @@ add_executable(algoritmos2 main.cpp
         matrizes.cpp
         exercicios/templates.cpp
         exercicios/vectors.cpp
-        exercicios/ponteiros_1.cpp)
+        exercicios/ponteiros_1.cpp
+        exercicios/registros_2.cpp
+        exercicios/ponteiro_3.cpp)
