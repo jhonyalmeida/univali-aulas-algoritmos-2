@@ -9,4 +9,7 @@ add_executable(algoritmos2 main.cpp
         exercicios/vectors.cpp
         exercicios/ponteiros_1.cpp
         exercicios/registros_2.cpp
-        exercicios/ponteiro_3.cpp)
+        exercicios/ponteiro_3.cpp
+        exercicios/ponteiros_5.cpp
+        exercicios/ponteiros_6.cpp
+)
